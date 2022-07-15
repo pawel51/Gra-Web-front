@@ -1,0 +1,93 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    padding: 25px;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 100px;
+    border: 4px solid #704217f6;
+    background-color: #b88f43;
+    opacity: .9;
+    gap: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.submitbutton {
+    display: inline-block;
+    width: 300px;
+    padding:6px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #704217f6;
+    border: 2px solid rgb(66, 35, 10);
+    border-radius: 15px;
+    /*box-shadow: 0 3px rgb(65, 65, 65);*/
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  .submitbutton:hover {background-color: #502f11f6}
+  
+  .submitbutton:active {
+    background-color: #502f11f6;
+    /*box-shadow: 0 2px rgb(39, 39, 39);*/
+    transform: translateY(4px);
+  }
+
+  .settingscombobox {
+      background-color: rgb(212, 160, 81);
+      border-color: #704217f6;
+      outline-color: #000 !important;
+  }
+
+.settingsinput {
+    width: 300px;
+    background-color: #dfbf84;
+}
+
+.settingscharImg {
+    border: 2px solid #502f11f6;
+}
+
+.outline {
+    outline: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.classImg {
+    width:128px;
+    height:128px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ARCHERimg {
+    background-image: url('../../Images/ClassIcons/archer.png');
+}
+
+.WARRIORimg {
+    background-image: url('../../Images/ClassIcons/warrior.png');
+}
+
+.MAGEimg {
+    background-image: url('../../Images/ClassIcons/mage.png');
+}
+
+.settingsspan {
+    height: 3px;
+    width: 100%;
+    background-color: #704217f6;
+}  
+

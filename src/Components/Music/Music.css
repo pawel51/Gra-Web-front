@@ -1,0 +1,17 @@
+.MusicButton {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: black;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconSound {
+    transform: scale(3);
+}

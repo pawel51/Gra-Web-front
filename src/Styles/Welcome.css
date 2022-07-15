@@ -1,0 +1,112 @@
+
+
+:root{
+    --welcome-bg-image: url("../Images/Backgrounds/1920x1080/bgwelcome.jpg");
+}
+
+
+.login-card {
+    min-height: 50vh;
+}
+
+.registerMessage {
+    margin-top: 10vh;
+}
+
+.alert {
+    position: absolute;
+    top:0;
+    transform: translateX(calc(50vw - 50%));
+}
+
+.outer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.WelcomeScreen {
+    height: 100vh;
+    width: 100%;
+    background-image: var(--welcome-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+
+
+.titleText {
+    transform: translate(calc(50vw - 50%), calc(5vh));
+}
+
+.centerButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 600px;
+    padding: 20px;
+    opacity: .9;
+    background-color: #929292;
+    border-radius: 10px;
+    border: 5px solid rgb(49, 101, 49);
+    transform: translate(calc(50vw - 50%), 10vh);
+}
+
+.welcomeButton {
+    width: 130px;
+    height: 60px;
+    background-color: #87c71d;
+    color: black;
+    border: 4px solid rgba(21, 69, 0, 0.59);
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    align-self: center;
+}
+
+.welcomeButton:hover{
+    background-color: #8fff00;
+    border-color: rgba(62, 144, 0, 0.59);
+}
+
+.buttonWithLabel{
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+}
+
+
+.hint {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loginText{
+    font-weight: bold;
+    color: blue;
+}
+.loginText:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin:10px
+}
+
+labe{
+    margin:4px;
+}
+
+.footerText{
+    padding: 20px;
+    color: white;
+}
+

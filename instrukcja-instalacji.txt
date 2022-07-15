@@ -1,0 +1,4 @@
+npm i
+zmiana /src/constants
+    API_BASE_URL na adres i port serwera
+npm start

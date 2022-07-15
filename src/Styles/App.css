@@ -1,0 +1,51 @@
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.hv-center {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+body {
+    height: 100vh;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.characterForm{
+    width: 800px;
+    margin: 10px !important;
+}
+
+.submitButton{
+    width: 200px !important;
+    margin: 10px !important;
+}
+
+.combobox {
+    width: 300px;
+    margin: 10px !important;
+}
+
+.Footer {
+    position: absolute;
+    bottom: -10vh;
+    height: 10vh;
+    width: 100%;
+    background-color: #393838;
+}
+
+.topbarnavigation{
+    background-color: #490404;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-shadow: 2px 2px 2px #000;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+
+.navigationLink{
+    text-decoration: none !important;
+    color: yellow !important;
+}
+

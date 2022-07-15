@@ -1,0 +1,105 @@
+.box {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+}
+
+.WelcomeScreen {
+    height: 100vh;
+    width: 100%;
+    background-image: var(--welcome-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.CenterColumns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centerButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 600px;
+    padding: 20px;
+    opacity: .9;
+    background-color: #929292;
+    border-radius: 10px;
+    border: 5px solid rgb(49, 101, 49);
+    transform: translate(calc(50vw - 50%), 10vh);
+}
+
+.submitButton{
+
+    align-self: center;
+}
+
+.epicText {
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    padding: 10px;
+    color: orange;
+    font-weight: bolder;
+
+}
+
+.charImg {
+    width:300px;
+    height:450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ARCHER-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-DARK_ELF.jpg');
+}
+.ARCHER-ELF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-ELF.jpg');
+}
+.ARCHER-ORC {
+    background-image: url('../../Images/ClassesRaces/ARCHER-ORC.jpg');
+}
+.ARCHER-DWARF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-DWARF.jpg');
+}
+.ARCHER-HUMAN {
+    background-image: url('../../Images/ClassesRaces/ARCHER-HUMAN.jpg');
+}
+
+.WARRIOR-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-DARK_ELF.jpg');
+}
+.WARRIOR-ELF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-ELF.jpg');
+}
+.WARRIOR-ORC {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-ORC.jpg');
+}
+.WARRIOR-DWARF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-DWARF.jpg');
+}
+.WARRIOR-HUMAN {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-HUMAN.jpg');
+}
+
+.MAGE-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/MAGE-DARK_ELF.jpg');
+}
+.MAGE-ELF {
+    background-image: url('../../Images/ClassesRaces/MAGE-ELF.jpg');
+}
+.MAGE-ORC {
+    background-image: url('../../Images/ClassesRaces/MAGE-ORC.jpg');
+}
+.MAGE-DWARF {
+    background-image: url('../../Images/ClassesRaces/MAGE-DWARF.jpg');
+}
+.MAGE-HUMAN {
+    background-image: url('../../Images/ClassesRaces/MAGE-HUMAN.jpg');
+}

@@ -1,0 +1,56 @@
+.itemContainer{
+    display: flex;
+    justify-content: left;
+}
+
+.itemsquare {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 4px solid #704217f6;
+    background-color: #704217f6;
+}
+
+.itemname{
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.imgContainer{
+    width: 350px;
+    height: 450px;
+    background-color: #754c4c;
+}
+
+.eqImg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boots {
+    background-image: url('../../Images/eq/boots.png');
+}
+
+.hands {
+    background-image: url('../../Images/eq/hand.png');
+}
+
+.armour {
+    background-image: url('../../Images/eq/armour.png');
+}
+
+.helm {
+    background-image: url('../../Images/eq/helm.png');
+}
+
+.wep1 {
+    background-image: url('../../Images/eq/wep.png');
+}
+.wep2 {
+    background-image: url('../../Images/eq/wep.png');
+}
+

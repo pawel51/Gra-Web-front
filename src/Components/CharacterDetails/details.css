@@ -1,0 +1,190 @@
+.detailsBackground {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../Images/Backgrounds/1920x1080/armourybg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.charImg {
+    width:300px;
+    height:450px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid #704217f6;
+    background-color: #704217f6;
+}
+
+.ARCHER-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-DARK_ELF.jpg');
+}
+.ARCHER-ELF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-ELF.jpg');
+}
+.ARCHER-ORC {
+    background-image: url('../../Images/ClassesRaces/ARCHER-ORC.jpg');
+}
+.ARCHER-DWARF {
+    background-image: url('../../Images/ClassesRaces/ARCHER-DWARF.jpg');
+}
+.ARCHER-HUMAN {
+    background-image: url('../../Images/ClassesRaces/ARCHER-HUMAN.jpg');
+}
+
+.WARRIOR-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-DARK_ELF.jpg');
+}
+.WARRIOR-ELF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-ELF.jpg');
+}
+.WARRIOR-ORC {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-ORC.jpg');
+}
+.WARRIOR-DWARF {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-DWARF.jpg');
+}
+.WARRIOR-HUMAN {
+    background-image: url('../../Images/ClassesRaces/WARRIOR-HUMAN.jpg');
+}
+
+.MAGE-DARK_ELF {
+    background-image: url('../../Images/ClassesRaces/MAGE-DARK_ELF.jpg');
+}
+.MAGE-ELF {
+    background-image: url('../../Images/ClassesRaces/MAGE-ELF.jpg');
+}
+.MAGE-ORC {
+    background-image: url('../../Images/ClassesRaces/MAGE-ORC.jpg');
+}
+.MAGE-DWARF {
+    background-image: url('../../Images/ClassesRaces/MAGE-DWARF.jpg');
+}
+.MAGE-HUMAN {
+    background-image: url('../../Images/ClassesRaces/MAGE-HUMAN.jpg');
+}
+
+.gold {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url('../../Images/eq/goldIcon.png');
+    float: left;
+}
+
+.statsColumn {
+    margin-right: 300px;
+    float:left;
+}
+
+.floatLeft {
+    float:left;
+}
+
+.statsText {
+    width: 150px;
+}
+
+.detailsFont {
+    color: #fff;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-shadow: 2px 2px 2px #000;
+}
+.margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.submitDetailsButton{
+    padding: 6px 15px;
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+    width: 750px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #704217f6;
+    border: 2px solid rgb(66, 35, 10);
+    border-radius: 15px;
+    /*box-shadow: 0 3px rgb(65, 65, 65);*/
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+.submitDetailsButton:hover {
+    background-color: #502f11f6;
+}
+
+.statsBox {
+    padding: 10px;
+}
+
+.statsBoxMargin {
+    margin-left: 15%;
+}
+
+.itemsBox {
+    align-items: center;
+    width: 100px;
+    margin: 15px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.freePointsLabel {
+    display: flex;
+    padding: 10px;
+}
+
+.incrementButton {
+    width: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #704217f6;
+    border: 2px solid rgb(66, 35, 10);
+    border-radius: 15px;
+    /*box-shadow: 0 3px rgb(65, 65, 65);*/
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.incrementButton:hover {
+    background-color: #502f11f6;
+}
+
+.basicDataBox {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.imageText {
+    margin: 0;
+    position: absolute;
+    left: 47%;
+    -ms-transform: translate(-47%, -47%);
+    transform: translate(-47%, -47%);
+}
+
+.goldExp {
+    display: inline;
+}
