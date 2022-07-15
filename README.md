@@ -4,4 +4,6 @@ Implemented functionalities such as:
 - quests
 - ranking
 - character creation
+
+
 Documentation **DokumentacjaKoncowaPZ.pdf**
